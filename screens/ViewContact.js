@@ -19,6 +19,24 @@ export default function ViewTask({route, navigation})
     <Text style= {styles.taskField}>
     Phone: <Text style={styles.taskText}>{task.phone}</Text>
     </Text>
+    <Text style= {styles.taskField}>
+    Department: <Text style={styles.taskText}>{task.department}</Text>
+    </Text>
+    <Text style= {styles.taskField}>
+    Street: <Text style={styles.taskText}>{task.street}</Text>
+    </Text>
+    <Text style= {styles.taskField}>
+    City: <Text style={styles.taskText}>{task.city}</Text>
+    </Text>
+    <Text style= {styles.taskField}>
+    State: <Text style={styles.taskText}>{task.state}</Text>
+    </Text>
+    <Text style= {styles.taskField}>
+    ZIP: <Text style={styles.taskText}>{task.zip}</Text>
+    </Text>
+    <Text style= {styles.taskField}>
+    Country: <Text style={styles.taskText}>{task.country}</Text>
+    </Text>
 
     <View style={styles.imageContainer}>
     <Image
