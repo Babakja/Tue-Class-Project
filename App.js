@@ -6,8 +6,8 @@ import {useFonts} from 'expo-font';
 
 import HomeScreen from './screens/HomeScreen';
 import SettingsScreen from './screens/SettingsScreen';
-import ListScreen from './screens/ListScreen';
-import ViewScreen from './screens/ViewScreen';
+import StaffContacts from './screens/StaffContacts';
+import ViewContact from './screens/ViewContact';
 import styles from './Styles';
 
 const Stack = createStackNavigator();
@@ -36,8 +36,8 @@ export default function App()
         })}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Settings" component={SettingsScreen} />
-        <Stack.Screen name="TaskList" component={ListScreen} />
-        <Stack.Screen name="ViewScreen" component={ViewScreen} />
+        <Stack.Screen name="StaffContacts" component={StaffContacts} />
+        <Stack.Screen name="ViewContact" component={ViewContact} />
       </Stack.Navigator>
     </NavigationContainer>
   );

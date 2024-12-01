@@ -8,7 +8,7 @@ export default function HomeScreen({ navigation }) {
       <Text style={styles.title}>Welcome to ROI Staff Directory</Text>
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('TaskList')}>
+        onPress={() => navigation.navigate('StaffContacts')}>
         <Text style={styles.buttonText}>Go To Staff Contacts</Text>
       </TouchableOpacity>
        <TouchableOpacity
